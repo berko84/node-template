@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test
+  name: nodejs
+  description: |
+    nodejs poc
 spec:
   type: service
-  owner: user:guest
+  owner: barak
   lifecycle: experimental
