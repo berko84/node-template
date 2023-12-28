@@ -6,5 +6,4 @@ metadata:
     nodejs poc.
 spec:
   type: service
-  owner: BARAK
   lifecycle: experimental
