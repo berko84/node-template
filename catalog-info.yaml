@@ -4,6 +4,8 @@ metadata:
   name: node
   description: |
     nodejs poc.
+  annotations:
+  'backstage.io/kubernetes-namespace': default
 spec:
   type: service
   lifecycle: experimental
