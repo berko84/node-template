@@ -1,16 +1,23 @@
----
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: frobs-awesome
+  name: backstage
   description: |
-    Backend service that implements the Frobs API, as defined
-    in [the Frobs RFC](https://example.com/spec/frob.html).
-  labels:
-    system: frobs
-    lifecycle: production
-    example.com/service-discovery-name: frobsawesome
+    Backstage is an open-source developer portal that puts the developer experience first.
+  links:
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
   annotations:
-    circleci.com/project-slug: github/example-org/frobs-awesome
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
 spec:
-  type: service
+  type: library
+  owner: CNCF
+  lifecycle: experimental
