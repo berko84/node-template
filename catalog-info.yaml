@@ -1,10 +1,16 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: nodejs poc
+  name: frobs-awesome
   description: |
-    node poc.
+    Backend service that implements the Frobs API, as defined
+    in [the Frobs RFC](https://example.com/spec/frob.html).
+  labels:
+    system: frobs
+    lifecycle: production
+    example.com/service-discovery-name: frobsawesome
+  annotations:
+    circleci.com/project-slug: github/example-org/frobs-awesome
 spec:
   type: service
-  owner: BARAK
-  lifecycle: experimental
