@@ -1,11 +1,10 @@
----
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: nodejs-awesome
+  name: nodejs poc
   description: |
-    node poc service.
-  labels:
-    system: test
+    node poc.
 spec:
   type: service
+  owner: BARAK
+  lifecycle: experimental
