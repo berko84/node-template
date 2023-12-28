@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1node
 kind: Component
 metadata:
-  name: nodejspoc
+  name: nodepoc
   description: |
     nodejs poc.
 spec:
