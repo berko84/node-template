@@ -6,6 +6,7 @@ metadata:
     nodejs poc.
   annotations:
   'backstage.io/kubernetes-namespace': default
+  'backstage.io/kubernetes-id': node
 spec:
   type: service
   owner: barak
