@@ -7,7 +7,5 @@ metadata:
     node poc service.
   labels:
     system: test
-    lifecycle: poc
-    example.com/service-discovery-name: nodejs-awesome
 spec:
   type: service
