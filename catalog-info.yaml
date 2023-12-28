@@ -1,4 +1,4 @@
-apiVersion: backstage.io/nodev1
+apiVersion: backstage.io/v1node
 kind: Component
 metadata:
   name: nodejspoc
