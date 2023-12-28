@@ -7,6 +7,7 @@ metadata:
   annotations:
     'backstage.io/kubernetes-namespace': default
     'backstage.io/kubernetes-id': node
+    github.com/project-slug: 'berko84/node-template'
 spec:
   type: service
   owner: barak
