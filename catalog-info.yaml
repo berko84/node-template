@@ -8,4 +8,5 @@ metadata:
   'backstage.io/kubernetes-namespace': default
 spec:
   type: service
+  owner: barak
   lifecycle: experimental
