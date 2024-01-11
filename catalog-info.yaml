@@ -7,7 +7,6 @@ metadata:
   annotations:
     'backstage.io/kubernetes-namespace': default
     'backstage.io/kubernetes-id': node
-    github.com/project-slug: 'berko84/node-template'
     aws.amazon.com/aws-codepipeline: arn:aws:codepipeline:eu-west-1:679837030144:qna_bot
 spec:
   type: service
